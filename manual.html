@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Ставочник</title>
+  <link href="CSS.css" rel="stylesheet">
+ </head>
+ <body>
+ 	<div class="page">
+ 	<header class="header">
+ 		<!-- <h1>"Ставочник"</h1> -->
+ 		<ul class="menu">
+ 	
+ 		<li><a href="#"><p>Ставки Live</p></a></li>
+ 			<li><a href="#"><p>Автоподбор ставок</p></a></li>
+ 				<li><a href="manual.html"><p>Ручной подбор ставок</p></a></li>
+ 					<li><a href="help.html"><p>Помощь</p></a></li>
+ 		</ul>
+ 	</header>
+
+ 	<main class ="main">
+ 	<section class = 'fields-home'>
+ 		
+		 	<form>
+		 			<input type='text'  class='teamHome fields' placeholder='Команда хозяев'>
+		 		</form>
+		 	<form>
+		 			<input type = 'text' class = 'teamHomeMatches fields' placeholder="Сыграно матчей дома">
+		 		</form>
+		 	<form>
+		 			<input type = 'text' class = 'teamHomeGoalsFor fields' placeholder="Забито голов дома">
+		 		</form>
+		 	<form>
+		 			<input type = 'text' class = 'teamHomeGoalsAgainst fields' placeholder="Пропущено голов дома">
+		 		</form> 
+ 	</section>
+ 	
+
+ 		<div class = 'result'>
+ 			<p class = 'resultLine'> Здесь отобразится результат </p>	
+	 	<div class='stavka'>
+	 		</div>
+ 		</div>
+ 			<!-- <div class="button"> -->
+ 		 		<input type = 'submit' class="submit"  value="Прогноз">
+ 			<!-- </div> -->
+ 
+
+ 	<div class = 'fields-away'>
+
+ 		<div>
+		 		<input type='text'  class='teamAway fields' placeholder="Команда гостей">
+		 	</div>
+		 <div>
+		 		<input type = 'text' class = 'teamAwayMatches fields' placeholder="Сыграно матчей в гостях">
+		 	</div>
+		 <div>
+		 		<input type = 'text' class = 'teamAwayGoalsFor fields' placeholder="Забито голов в гостях">
+		 	</div>
+		 <div>
+		 		<input type = 'text' class = 'teamAwayGoalsAgainst fields' placeholder="Пропущено голов в гостях">
+		 	</div>
+ 	</div>
+
+ 	 </main>
+
+ 	 <div class="green"></div>
+
+
+
+
+<footer class="footer">
+	<p>Footer</p>
+</footer>
+</div>
+ 	<script src="script.js"></script>
+ </body>
+</html>
